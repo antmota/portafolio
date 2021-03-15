@@ -275,6 +275,10 @@ header label:hover{
     color: #ccc;
 }
 
+.text-p #icons-section-fourth{
+    margin-bottom: 5px;
+}
+
 /* quinta seccion*/
 
 .section-fifth{
@@ -487,12 +491,13 @@ footer{
         margin-top: -100px;
         left: 180px;
     }
+    
 }
 
 /*menu responsive*/
 
-/*Cuando llegue a 768px saldra el icono del menu*/
-@media (max-width:400px) {
+/*Cuando llegue a 450px saldra el icono del menu*/
+@media (max-width:550px) {
     header{
         padding-bottom: 5px;
     }
@@ -518,8 +523,9 @@ footer{
     /*cambia la direccion del menu de fila a columna*/
     .menu ul{
         flex-direction: column;
-        margin-left: -20px;
+        margin-left: -27px;
         background: rgba(10,44,51,1);
+        
     }
 
     .menu li{
